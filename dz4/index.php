@@ -1,8 +1,5 @@
 <?php
 
-//ini_set('display_errors', 'On');
-//error_reporting(E_ALL);
-
 require_once 'tarifs/StudTariff.php';
 require_once 'tarifs/BaseTariff.php';
 require_once 'tarifs/HourTariff.php';
