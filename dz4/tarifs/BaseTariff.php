@@ -9,8 +9,6 @@ require_once 'Additional.php';
  */
 class BaseTariff extends Tariff {
 
-    use Additional;
-
     protected $cost_per_km = 10;
     protected $cost_per_minute = 3;
 

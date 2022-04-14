@@ -10,7 +10,7 @@ require_once 'services/iService.php';
 trait Additional {
 
     public function appendService(Tariff $tariff, iService $service) {
-        $tariff->addDop($service->getCost($tariff->km, $tariff->minute));
+        return $service->getCost($tariff->km, $tariff->minute);
     }
 
 }

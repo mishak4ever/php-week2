@@ -9,8 +9,6 @@ require_once 'Additional.php';
  */
 class HourTariff extends Tariff {
 
-    use Additional;
-
     protected $cost_per_km = 0;
     protected $cost_per_minute = 200 / 60;
 
